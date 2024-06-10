@@ -1,0 +1,93 @@
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f5f8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 90vw;
+  max-width: 800px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#review-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #102a42;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.review {
+  text-align: center;
+}
+
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.person-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #102a42;
+}
+
+.author {
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #102a42;
+}
+
+.job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #617d98;
+  font-size: 0.85rem;
+}
+
+.info {
+  margin-bottom: 0.75rem;
+  color: #324d67;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+button {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: #102a42;
+  background: #f1f5f8;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  background: #102a42;
+  color: #fff;
+}
+
+.random-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+}
