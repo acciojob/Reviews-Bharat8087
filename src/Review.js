@@ -47,9 +47,8 @@ const Review = () => {
 
   const nextReview = () => {
     setIndex((index) => {
-      let new
-Index = index + 1;
-return checkNumber(newIndex);
+      let newIndex = index + 1;
+      return checkNumber(newIndex);
     });
   };
 
